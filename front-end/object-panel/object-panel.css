@@ -1,0 +1,42 @@
+:root {
+
+    /* EidosMedia color palette */
+    --em-white1: #fff;
+    --em-white2: #fafafa;
+    --em-white3: #f3f3f3;
+    --em-white4: #e0e0e0;
+    --em-blue1: #f1f8ff;
+    --em-blue2: #0f56bc;
+    --em-blue3: #0a44ad;
+    --em-grey1: #505050;
+    --em-grey2: #28313b;
+    --em-green1: #4caf50;
+    --em-red1: #f44336;
+    --em-orange1: #ffab02;
+
+
+    --font-dark: var(--em-grey2);
+    --font-light: var(--em-grey1);
+}
+
+body {
+    font-family: "Source Sans Pro";
+    display: flex;
+}
+
+#left-nav {
+    width: 100px;
+    height: 100%;
+
+    background-color: blue;
+    /* background-color: var(--em-blue1); */
+}
+
+#page-content {
+    width: 100px;
+    height: 100%;
+
+    /* float: right; */
+}
+
+

@@ -1,0 +1,66 @@
+:root {
+
+    /* EidosMedia color palette */
+    --em-white1: #fff;
+    --em-white2: #fafafa;
+    --em-white3: #f3f3f3;
+    --em-white4: #e0e0e0;
+    --em-blue1: #f1f8ff;
+    --em-blue2: #0f56bc;
+    --em-blue3: #0a44ad;
+    --em-grey1: #e0e0e0;
+    --em-grey2: #505050;
+    --em-grey3: #28313b;
+    --em-green1: #4caf50;
+    --em-red1: #f44336;
+    --em-orange1: #ffab02;
+
+
+    --font-dark: var(--em-grey3);
+    --font-light: var(--em-grey2);
+
+}
+
+html, body {
+    width: 100%;
+
+    margin: 0px;
+
+    overflow-x: hidden;
+}
+
+body {
+    border: 10px solid var(--em-grey1);
+}
+
+.flex-container {
+    display: flex;
+
+    width: 100%;
+    
+    text-align: center;
+}
+
+.flex-box {
+    background-color: #f1f1f1;
+    margin: 10px 0px 10px 10px;
+    padding: 20px;
+    font-size: 30px;
+
+    width: 100%;
+}
+
+#left-box{
+    display: flex;
+    /* height: 100%; */
+    margin: 0px;
+    /* padding: 0px; */
+
+    width: 100px;
+}
+
+#left-box > .inside-box {
+    border: 1px solid black;
+    
+    flex-direction: colunm;
+}

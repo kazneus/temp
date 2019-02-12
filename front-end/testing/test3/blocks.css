@@ -1,0 +1,103 @@
+:root {
+    /* EidosMedia color palette */
+    --em-white1: #fff;
+    --em-white2: #fafafa;
+    --em-white3: #f3f3f3;
+    --em-white4: #e0e0e0;
+    --em-blue1: #f1f8ff;
+    --em-blue2: #0f56bc;
+    --em-blue3: #0a44ad;
+    --em-grey1: #e0e0e0;
+    --em-grey2: #707070;
+    --em-grey3: #505050;
+    --em-grey4: #28313b;
+    --em-green1: #4caf50;
+    --em-red1: #f44336;
+    --em-orange1: #ffab02;
+
+
+    --font-dark: var(--em-grey4);
+    --font-light: var(--em-grey3);
+
+    --nav-width: 85px;
+}
+
+html, body {
+    margin: 0px;
+
+    font-family: source-sans-pro, sans-serif;
+    
+    overflow-x: hidden;
+}
+
+body {
+    /* border: 10px solid var(--em-grey1);
+
+    z-index: 99; */
+}
+
+.full-width {
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.main {
+    height: 1200px;
+
+    margin: 0px 0px 0px var(--nav-width);
+    padding: 30px 0px 0px 0px;
+
+    background-color: var(--em-white1);
+}
+
+.main .content {
+    margin: 0px 30px;
+}
+
+#side-nav {
+    height: 100%;
+    width: var(--nav-width);
+    
+    position: fixed;
+    z-index: 2;
+
+    background-color: var(--em-blue2);
+}
+
+#side-nav div {
+    border: solid;
+    border-color: var(--em-grey2);
+    border-width: 1px 0px 1px 0px;
+}
+
+#side-nav div div {
+    border-style: solid;
+    border-color: var(--em-grey2);
+    border-width: 1px 0px 1px 0px;
+
+    height: var(--nav-width);
+
+    text-align: center;
+    color: var(--em-white1);
+}
+
+#button-bar {
+    height: 54px;
+    padding: 0px 0px 0px var(--nav-width);
+
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+
+    background-color: lightseagreen;
+}
+
+.button {
+    position: absolute;
+    right: 30px;
+}
+
+

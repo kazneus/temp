@@ -1,0 +1,50 @@
+
+:root {
+
+}
+
+html, body {
+    width: 100%;
+
+    margin: 0px;
+
+    overflow-x: hidden;
+}
+
+body {
+    border: 10px solid black;
+}
+
+.flex-container {
+    display: flex;
+
+    text-align: center;
+}
+
+.full-width {
+    width: 100%;
+}
+
+#content-wrapper {
+    background-color: chocolate;
+}
+
+#side-nav {
+    height: 100%;
+    width: 85px;
+    position: fixed;
+    
+
+    flex-direction: column;
+
+    background-color: plum;
+    
+    /* position: fixed; */
+    
+}
+
+.navtab {
+    margin: 4px;
+
+    border: 1px solid black;
+}
